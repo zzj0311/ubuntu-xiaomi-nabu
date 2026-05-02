@@ -45,7 +45,7 @@ jobs:
     needs: kernel
     strategy:
             matrix:
-                desktop: [ubuntu-desktop, lomiri]
+                desktop: [ubuntu-desktop]
                 kernel: [6.7-working, 6.8]
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
